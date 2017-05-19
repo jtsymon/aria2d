@@ -9,9 +9,9 @@ provides=('aria2c-daemon')
 conflicts=('aria2c-daemon')
 replaces=('aria2c-daemon')
 makedepends=('git')
-url='https://github.com/MikalaiR/aria2d'
+url='https://github.com/jtsymon/aria2d'
 install=$pkgname.install
-source=("git+https://github.com/MikalaiR/aria2d.git")
+source=("git+$url.git")
 md5sums=('SKIP')
 
 package() {
